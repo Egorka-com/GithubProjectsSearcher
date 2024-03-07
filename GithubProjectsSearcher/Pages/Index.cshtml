@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="container">
+    <div class="input-group mb-3">
+        <input type="text" id="repoInput" class="form-control" placeholder="Repo name" aria-describedby="addon-wrapping">
+        <button class="btn btn-outline-secondary" type="button" id="searchBtn">Seacrh</button>
+        <button type="button" class="btn btn-outline-secondary" id="deleteBtn" >Delete</button>
+    </div>
+    <div id="cardsContainer">
+
+    </div>
+</div>
